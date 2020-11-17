@@ -1,0 +1,16 @@
+ public clas uts {
+ public static void main (string[] args) {
+   M16 m16 = new M16 ();
+   pistol pistol = new  pistol () ;
+   Bazhoka bazhoka = new bazhoka () ;
+   Rambo rambo = new rambo () ;
+   
+   //==pollymorphysm========//
+   rambo.setSenjata (m16) ;
+   rambo.menembak ();
+   rambo.setSenjata (bazhoka);
+   rambo.Menembak ();
+   rambo.setSenjata (pistol);
+   rambo.menembak ();
+ }
+ }     
